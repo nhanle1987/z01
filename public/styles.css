@@ -1,0 +1,150 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+html *, body * {
+    box-sizing: border-box;
+}
+
+.app-wrapper {
+    overflow: hidden;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    padding-bottom: 60px;
+}
+
+a.reset {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    line-height: 42px;
+    width: 100%;
+    text-align: center;
+    border: 4px solid #000;
+    color: #000;
+    text-decoration: none;
+    font-family: fantasy;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    background-color: #fff;
+}
+
+.node.disabled {
+    filter: brightness(0%) blur(15px);
+}
+.node.disabled:hover {
+    filter: brightness(0%) blur(15px);
+    cursor: default;        
+}
+
+.node.current:hover {
+    cursor: default;     
+    filter: none;   
+}
+
+.node:hover {
+    filter: brightness(85%);
+    cursor: pointer;                                
+}
+#playground {
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    /* position: relative; */
+    display: block;
+    margin: 0 auto;
+    float: none;
+}
+
+text.label {
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.loader {
+    position: absolute;
+    top: 0;
+    left: -200%;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgb(255 255 255 / 86%);
+    -webkit-transition: opacity 500ms ease-in;
+    -moz-transition: opacity 500ms ease-in;
+    -o-transition: opacity 500ms ease-in;
+    -ms-transition: opacity 500ms ease-in;
+    transition: opacity 500ms ease-in;
+}
+
+.loader.loading {
+    opacity: 1;
+    left: 0;
+}
+
+.loader svg {
+    margin-top: 25%;
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .app-wrapper {
+        height: auto;
+    }
+    .wrapper {
+        padding: 0;
+    }
+    a.reset {
+        max-width: 200px;
+        position: relative;
+        margin-top: 20px;
+        top: auto;
+        left: auto;
+        bottom: auto;
+        right: auto;
+    }
+    a.reset:hover {
+        border-color: blue;
+        color: blue;
+        background-color: #fff2e0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .app-wrapper {
+        max-width: 960px;
+        text-align: right;
+        line-height: 600px;
+    }
+
+    #playground {
+        float: left;
+    }
+    
+    a.reset {
+        max-width: 200px;
+        position: relative;
+        margin-top: 0;
+    }
+    a.reset:hover {
+        border-color: blue;
+        color: blue;
+        background-color: #fff2e0;
+    }
+}
