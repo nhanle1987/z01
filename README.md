@@ -38,6 +38,7 @@ You can run the test by.
 npm test
 ```
 >**Note:** please run the server (can be dev or prod) before you run your test.
+
 >**Note:** report is generated automatically and stored in <project's root directory>/test-report.html, and the screenshot in <project's root directory>/report-e2e-images
 ## Test Plan
 ### 1 Scope
