@@ -3,6 +3,7 @@ Z01 is just a simple web game to demonstrate how to build both the backend-side 
 
 ## Features
 - AIO app: We build an application that can serve both backend and frontend. You just need to launch the server to immediately access the application.
+- Built-in test.
 - All of the logic will be returned from the backend-side (Restful-API).
 - Magic layout for desktop, tablet, and mobile.
 
