@@ -12,7 +12,7 @@ Z01 is just a simple web game to demonstrate how to build both the backend-side 
 - [AnimeJs]: make some magic visualize for the frontend.
 - [Jest] + [Puppeteer]: for automation test our application.
  
-#Installation
+# Installation
 
 Z01 requires [Node.js](https://nodejs.org/) v12+ to run.
 
