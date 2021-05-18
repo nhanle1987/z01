@@ -33,7 +33,7 @@ Then you can access the app by access
 http://localhost:3000
 ```
 
-You can run the test by.
+You can run the test by
 ```sh
 npm test
 ```
