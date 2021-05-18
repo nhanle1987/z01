@@ -1,5 +1,5 @@
 # Z01 - 3 nodes transition game
-Z01 is just a simple web game to demonstrate how to build both the backend-side and frontend-side, connect them, and write/run the test (unit test, API test, and e2e test).
+Z01 is just a simple web game to demonstrate how to build both the backend-side and frontend-side, connect them, and how to write/run the test (unit test, API test, and e2e test).
 
 ## Features
 - AIO app: We build an application that can serve both backend and frontend. You just need to launch the server to immediately access the application.
