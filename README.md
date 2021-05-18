@@ -10,7 +10,7 @@ Z01 is just a simple web game to demonstrate how to build both the backend-side 
 ## Tech
 - [ExpressJs]: of course, it is here for the backend.
 - [AnimeJs]: make some magic visualize for the frontend.
-- [Jest] + [Puppeteer]: for automation test our application.
+- [Jest] + [Puppeteer]: for automation test for our application.
  
 # Installation
 
