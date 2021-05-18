@@ -30,7 +30,7 @@ npm start
 ```
 Then you can access the app by access
 ```sh
-localhost:3000
+http://localhost:3000
 ```
 
 You can run the test by.
